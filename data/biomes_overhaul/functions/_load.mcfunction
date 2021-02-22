@@ -1,1 +1,1 @@
-tellraw @a "§4Biome Overhaul Loaded"
+tellraw @a "§3Biome Overhaul §eLoaded"
