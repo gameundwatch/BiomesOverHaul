@@ -1,8 +1,8 @@
 {
   "surface_builder": "minecraft:ocean_sand",
-  "depth": -1.6,
+  "depth": -0.4,
   "scale": 0,
-  "temperature": 0.5,
+  "temperature": 0.8,
   "downfall": 0.4,
   "precipitation": "rain",
   "category": "ocean",

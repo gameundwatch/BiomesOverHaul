@@ -7,34 +7,44 @@
       "type": "minecraft:multi_noise",
       "seed": -761716317,
       "altitude_noise": {
-        "firstOctave": -12,
+        "firstOctave": -8,
         "amplitudes": [
-          8,
+          1,
           1
         ]
       },
       "temperature_noise": {
-        "firstOctave": -7,
+        "firstOctave": -8,
         "amplitudes": [
           1,
           1
         ]
       },
       "humidity_noise": {
-        "firstOctave": -7,
+        "firstOctave": -8,
         "amplitudes": [
           1,
           1
         ]
       },
       "weirdness_noise": {
-        "firstOctave": -7,
+        "firstOctave": -8,
         "amplitudes": [
           1,
           1
         ]
       },
       "biomes": [
+        {
+          "biome": "biomes_overhaul:abyssal",
+          "parameters": {
+            "altitude": -1,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0.5,
+            "offset": 0
+          }
+        },
         {
           "biome": "biomes_overhaul:ocean",
           "parameters": {
@@ -46,13 +56,73 @@
           }
         },
         {
-          "biome": "biomes_overhaul:plains",
+          "biome": "biomes_overhaul:shelf",
           "parameters": {
-            "altitude": 0,
+            "altitude": -0.3,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,
-            "offset": 0.5
+            "offset": 0
+          }
+        },
+        {
+          "biome": "biomes_overhaul:coast",
+          "parameters": {
+            "altitude": -0.1,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "biomes_overhaul:plains",
+          "parameters": {
+            "altitude": 0.1,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "biomes_overhaul:hills",
+          "parameters": {
+            "altitude": 0.3,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "biomes_overhaul:plateau",
+          "parameters": {
+            "altitude": 0.5,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "biomes_overhaul:mountain",
+          "parameters": {
+            "altitude": 0.8,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "biomes_overhaul:peak",
+          "parameters": {
+            "altitude": 1,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
           }
         }
       ]
