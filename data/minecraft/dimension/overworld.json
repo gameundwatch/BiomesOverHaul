@@ -68,7 +68,7 @@
         {
           "biome": "biomes_overhaul:coast",
           "parameters": {
-            "altitude": -0.1,
+            "altitude": 0,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,
