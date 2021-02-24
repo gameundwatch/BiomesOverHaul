@@ -98,7 +98,7 @@
         {
           "biome": "biomes_overhaul:hills",
           "parameters": {
-            "altitude": 0.3,
+            "altitude": 0.4,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,

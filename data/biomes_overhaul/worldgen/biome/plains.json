@@ -1,5 +1,5 @@
 {
-  "surface_builder": "minecraft:grass",
+  "surface_builder": "biomes_overhaul:plains_grass",
   "depth": 0.2,
   "scale": 0.0,
   "temperature": 0.8,
