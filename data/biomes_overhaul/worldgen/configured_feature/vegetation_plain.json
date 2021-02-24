@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count_multilayer",
+          "config": {
+            "count": {
+              "base": 0,
+              "spread": 1
+            }
+          }
+        },
+        "inner": {
+          "type": "minecraft:heightmap",
+          "config": {}
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:random_selector",
+      "config": {
+        "features": [
+          {
+            "feature": "biomes_overhaul:tree_oak_short",
+            "chance": 1
+          }
+        ],
+        "default": "minecraft:oak"
+      }
+    }
+  }
+}

@@ -155,7 +155,7 @@
       "noise": {
         "height": 256,
         "density_factor": 1,
-        "density_offset": -0.5,
+        "density_offset": -0.48,
         "size_horizontal": 1,
         "size_vertical": 2,
         "simplex_surface_noise": true,
