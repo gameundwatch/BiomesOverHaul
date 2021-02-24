@@ -13,7 +13,7 @@
         "Properties": {
           "axis": "y"
         },
-        "Name": "minecraft:oak_log"
+        "Name": "minecraft:dark_oak_log"
       }
     },
     "leaves_provider": {
