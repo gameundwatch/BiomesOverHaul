@@ -1,12 +1,12 @@
 {
   "surface_builder": "minecraft:ocean_sand",
-  "depth": 7,
+  "depth": 2.4,
   "scale": 0,
   "temperature": 0.8,
   "downfall": 0.4,
   "precipitation": "rain",
   "category": "ocean",
-  "player_spawn_friendly": false,
+  "player_spawn_friendly": true,
   "effects": {
     "sky_color": 7907327,
     "fog_color": 12638463,
