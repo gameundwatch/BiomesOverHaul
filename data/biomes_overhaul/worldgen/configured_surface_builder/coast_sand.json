@@ -4,10 +4,10 @@
       "Name": "minecraft:sand"
     },
     "under_material": {
-      "Name": "minecraft:clay"
+      "Name": "minecraft:sand"
     },
     "underwater_material": {
-      "Name": "minecraft:sand"
+      "Name": "minecraft:clay"
     }
   },
   "type": "minecraft:default"
