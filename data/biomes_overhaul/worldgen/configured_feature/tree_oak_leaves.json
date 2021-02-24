@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "Name": "minecraft:oak_leaves",
+      "Properties": {
+        "persistent": "true",
+        "distance": "7"
+      }
+    },
+    "place_on": [
+      {
+        "Name": "minecraft:grass_block",
+        "Properties": {
+          "snowy": "false"
+        }
+      }
+    ],
+    "place_in": [
+      {
+        "Name": "minecraft:air"
+      }
+    ],
+    "place_under": [
+      {
+        "Name": "minecraft:air"
+      }
+    ]
+  }
+}
