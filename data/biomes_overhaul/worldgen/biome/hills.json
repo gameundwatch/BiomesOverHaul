@@ -18,5 +18,13 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": {},
-  "features": []
+  "features": [
+    [
+
+    ],
+    [
+      "biomes_overhaul:plains/patcher_flowers_plains",
+      "biomes_overhaul:plains/vegetation_plains"
+    ]
+  ]
 }
