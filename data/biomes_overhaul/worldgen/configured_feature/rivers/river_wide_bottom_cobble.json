@@ -42,7 +42,7 @@
               "config": {
                 "noise_to_count_ratio": -1,
                 "noise_factor": 256,
-                "noise_offset": -0.05
+                "noise_offset": -0.1
               }
             },
             "feature": {
@@ -53,19 +53,19 @@
                   "config": {
                     "noise_to_count_ratio": 1,
                     "noise_factor": 256,
-                    "noise_offset": 0.05
+                    "noise_offset": 0.1
                   }
                 },
                 "feature": {
                   "type": "minecraft:ore",
                   "config": {
                     "state": {
-                      "Name": "minecraft:air"
+                      "Name": "minecraft:cobblestone"
                     },
-                    "size": 8,
+                    "size": 32,
                     "target": {
                       "predicate_type": "minecraft:block_match",
-                      "block": "minecraft:grass_block"
+                      "block": "minecraft:stone"
                     }
                   }
                 }

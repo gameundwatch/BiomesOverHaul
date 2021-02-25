@@ -21,17 +21,18 @@
   "features": [
     [],
     [
-      "biomes_overhaul:rivers/river_deep_space",
-      "biomes_overhaul:rivers/river_deep_water",
+      "biomes_overhaul:rivers/river_wide_space",
+      "biomes_overhaul:rivers/river_wide_water",
 
-      "biomes_overhaul:rivers/river_deep_bottom_cobble",
+      "biomes_overhaul:rivers/river_wide_bottom_cobble",
       
-      "biomes_overhaul:rivers/river_deep_edge_l",
-      "biomes_overhaul:rivers/river_deep_edge_r"
+      "biomes_overhaul:rivers/river_wide_edge_l",
+      "biomes_overhaul:rivers/river_wide_edge_r"
     ],
     [],[],[],[],[],[],
     [
-      "biomes_overhaul:plains/patcher_flowers_plains",
+      "biomes_overhaul:plains/flowers_l_plains",
+      "biomes_overhaul:plains/flowers_r_plains",
       "biomes_overhaul:plains/vegetation_plains"
     ],[]
   ]

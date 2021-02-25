@@ -42,31 +42,56 @@
               "config": {
                 "noise_to_count_ratio": -1,
                 "noise_factor": 256,
-                "noise_offset": -0.05
+                "noise_offset": 0.12
               }
             },
             "feature": {
               "type": "minecraft:decorated",
               "config": {
                 "decorator": {
-                  "type": "minecraft:count_noise_biased",
+                  "type": "minecraft:chance",
                   "config": {
-                    "noise_to_count_ratio": 1,
-                    "noise_factor": 256,
-                    "noise_offset": 0.05
+                    "chance": 512
                   }
                 },
                 "feature": {
-                  "type": "minecraft:ore",
+                  "type": "minecraft:flower",
                   "config": {
-                    "state": {
-                      "Name": "minecraft:gravel"
+                    "can_replace": false,
+                    "project": true,
+                    "need_water": false,
+                    "xspread": 7,
+                    "yspread": 3,
+                    "zspread": 7,
+                    "tries": 16,
+                    "state_provider": {
+                      "type": "minecraft:weighted_state_provider",
+                      "entries": [
+                        {
+                          "weight": 30,
+                          "data": {
+                            "Name": "minecraft:grass"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:poppy"
+                          }
+                        },
+                        {
+                          "weight": 1,
+                          "data": {
+                            "Name": "minecraft:dandelion"
+                          }
+                        }
+                      ]
                     },
-                    "size": 32,
-                    "target": {
-                      "predicate_type": "minecraft:block_match",
-                      "block": "minecraft:dirt"
-                    }
+                    "block_placer": {
+                      "type": "minecraft:simple_block_placer"
+                    },
+                    "whitelist": [],
+                    "blacklist": []
                   }
                 }
               }
@@ -77,3 +102,4 @@
     }
   }
 }
+

@@ -42,7 +42,7 @@
               "config": {
                 "noise_to_count_ratio": -1,
                 "noise_factor": 256,
-                "noise_offset": 0.05
+                "noise_offset": -0.08
               }
             },
             "feature": {
@@ -53,18 +53,21 @@
                   "config": {
                     "noise_to_count_ratio": 1,
                     "noise_factor": 256,
-                    "noise_offset": 0.07
+                    "noise_offset": 0.08
                   }
                 },
                 "feature": {
                   "type": "minecraft:ore",
                   "config": {
                     "state": {
-                      "Name": "minecraft:gravel"
+                      "Name": "minecraft:water",
+                      "Properties": {
+                        "level": "0"
+                      }
                     },
                     "size": 8,
                     "target": {
-                      "predicate_type": "tag_match",
+                      "predicate_type": "minecraft:tag_match",
                       "tag": "biomes_overhaul:surface_plains"
                     }
                   }
