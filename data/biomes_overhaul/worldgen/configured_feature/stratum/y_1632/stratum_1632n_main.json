@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.4,
+        "feature": "biomes_overhaul:stratum/y_1632/stratum_1632n_and"
+      },
+      {
+        "chance": 0.2,
+        "feature": "biomes_overhaul:stratum/y_1632/stratum_1632n_bas"
+      },
+      {
+        "chance": 0.2,
+        "feature": "biomes_overhaul:stratum/y_1632/stratum_1632n_bla"
+      }
+    ],
+    "default": {
+      "type": "minecraft:no_op",
+      "config": {}
+    }
+  }
+}

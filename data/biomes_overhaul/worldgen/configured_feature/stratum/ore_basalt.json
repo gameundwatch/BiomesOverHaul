@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "state": {
+      "Name": "minecraft:basalt",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "size": 8,
+    "target": {
+      "predicate_type": "minecraft:block_match",
+      "block":"minecraft:stone"
+    }
+  }
+}

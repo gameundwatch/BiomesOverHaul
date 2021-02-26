@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:square",
+          "config": {}
+        },
+        "inner": {
+          "type": "minecraft:heightmap",
+          "config": {}
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:ore",
+      "config": {
+        "state": {
+          "Name": "minecraft:stone"
+        },
+        "size": 12,
+        "target": {
+          "predicate_type": "minecraft:always_true"
+        }
+      }
+    }
+  }
+}

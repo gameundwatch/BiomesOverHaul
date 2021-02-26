@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "state": {
+      "Name": "minecraft:andesite"
+    },
+    "size": 8,
+    "target": {
+      "predicate_type": "minecraft:block_match",
+      "block":"minecraft:stone"
+    }
+  }
+}
