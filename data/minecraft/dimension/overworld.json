@@ -98,11 +98,11 @@
         {
           "biome": "biomes_overhaul:hills",
           "parameters": {
-            "altitude": 0.6,
+            "altitude": 0.5,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,
-            "offset": 0.2
+            "offset": 0.25
           }
         },
         {
