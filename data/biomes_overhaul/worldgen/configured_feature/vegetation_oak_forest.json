@@ -24,19 +24,19 @@
       "config": {
         "features": [
           {
-            "feature": "biomes_overhaul:tree_oak",
+            "feature":"biomes_overhaul:trees/oak/tree_oak",
             "chance": 0.4
           },
           {
-            "feature":"biomes_overhaul:tree_darkoak_slim",
-            "chance": 0.3
+            "feature":"biomes_overhaul:trees/darkoak/tree_darkoak_slim",
+            "chance": 0.4
           },
           {
-            "feature": "biomes_overhaul:tree_oak_short",
-            "chance": 0.2
+            "feature":"biomes_overhaul:trees/oak/tree_oak_short",
+            "chance": 0.1
           },
           {
-            "feature":"biomes_overhaul:tree_oak_fancy",
+            "feature":"biomes_overhaul:trees/oak/tree_oak_fancy",
             "chance": 0.1
           }
         ],

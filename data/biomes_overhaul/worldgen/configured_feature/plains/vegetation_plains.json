@@ -8,8 +8,8 @@
           "type": "minecraft:count_multilayer",
           "config": {
             "count": {
-              "base": 4,
-              "spread": 2
+              "base": 1,
+              "spread": 0
             }
           }
         },
@@ -24,11 +24,11 @@
       "config": {
         "features": [
           {
-            "feature": "biomes_overhaul:tree_oak_short",
-            "chance": 0.2
+            "feature": "biomes_overhaul:trees/oak/tree_oak_short",
+            "chance": 0.1
           }
         ],
-        "default": "biomes_overhaul:tree_oak_leaves"
+        "default": "biomes_overhaul:trees/oak/tree_oak_leaves"
       }
     }
   }
