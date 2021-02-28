@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "state": {
+      "Name": "minecraft:coal_ore"
+    },
+    "size": 64,
+    "target": {
+      "predicate_type": "minecraft:tag_match",
+      "tag": "biomes_overhaul:stones_overworld_replaceable"
+    }
+  }
+}
