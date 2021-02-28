@@ -67,8 +67,8 @@
                     },
                     "size": 8,
                     "target": {
-                      "predicate_type": "minecraft:tag_match",
-                      "tag": "biomes_overhaul:surface_plains"
+                      "predicate_type": "minecraft:block_match",
+                      "block": "minecraft:dirt"
                     }
                   }
                 }
