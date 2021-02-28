@@ -27,11 +27,11 @@
       "config": {
         "features": [
           {
-            "chance": 0.5,
+            "chance": 0.4,
             "feature": "biomes_overhaul:ores/ore_coal"
           },
           {
-            "chance": 0.5,
+            "chance": 0.4,
             "feature": "biomes_overhaul:ores/ore_iron"
           }          
         ],
