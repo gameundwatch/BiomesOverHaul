@@ -4,15 +4,15 @@
     "features": [
       {
         "chance": 0.2,
-        "feature": "biomes_overhaul:stratum/y_3248/stratum_3248p_and"
+        "feature": "biomes_overhaul:stratum/y_0116/stratum_0116p_bas"
       },
       {
         "chance": 0.2,
-        "feature": "biomes_overhaul:stratum/y_3248/stratum_3248p_dio"
+        "feature": "biomes_overhaul:stratum/y_0116/stratum_0116p_bla"
       },
       {
-        "chance": 0.2,
-        "feature": "biomes_overhaul:stratum/y_3248/stratum_3248p_gra"
+        "chance": 0.1,
+        "feature": "biomes_overhaul:stratum/y_0116/stratum_0116p_obs"
       }
     ],
     "default": {

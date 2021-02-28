@@ -8,10 +8,18 @@
       },
       {
         "chance": 0.2,
-        "feature": "biomes_overhaul:stratum/y_1632/stratum_1632n_bas"
+        "feature": "biomes_overhaul:stratum/y_1632/stratum_1632n_dio"
       },
       {
         "chance": 0.2,
+        "feature": "biomes_overhaul:stratum/y_1632/stratum_1632n_gra"
+      },
+      {
+        "chance": 0.1,
+        "feature": "biomes_overhaul:stratum/y_1632/stratum_1632n_bas"
+      },
+      {
+        "chance": 0.1,
         "feature": "biomes_overhaul:stratum/y_1632/stratum_1632n_bla"
       }
     ],
