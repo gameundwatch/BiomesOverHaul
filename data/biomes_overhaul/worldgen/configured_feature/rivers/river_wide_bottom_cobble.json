@@ -62,7 +62,7 @@
                     "state": {
                       "Name": "minecraft:cobblestone"
                     },
-                    "size": 24,
+                    "size": 32,
                     "target": {
                       "predicate_type": "minecraft:block_match",
                       "block": "minecraft:stone"

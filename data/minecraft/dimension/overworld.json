@@ -41,14 +41,14 @@
             "altitude": -0.9,
             "temperature": 0,
             "humidity": 0,
-            "weirdness": 0.5,
-            "offset": 0
+            "weirdness": 0,
+            "offset": 0.2
           }
         },
         {
           "biome": "biomes_overhaul:ocean",
           "parameters": {
-            "altitude": -0.5,
+            "altitude": -0.4,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,
@@ -58,7 +58,7 @@
         {
           "biome": "biomes_overhaul:shelf",
           "parameters": {
-            "altitude": -0.3,
+            "altitude": -0.2,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,
