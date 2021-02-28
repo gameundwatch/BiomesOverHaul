@@ -62,7 +62,7 @@
                     "state": {
                       "Name": "minecraft:air"
                     },
-                    "size": 8,
+                    "size": 12,
                     "target": {
                       "predicate_type": "minecraft:block_match",
                       "block": "minecraft:grass_block"

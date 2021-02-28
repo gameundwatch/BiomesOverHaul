@@ -1,7 +1,7 @@
 {
-  "surface_builder": "biomes_overhaul:plains_grass",
-  "depth": 0.2,
-  "scale": 0.0,
+  "surface_builder": "minecraft:ocean_sand",
+  "depth": 0.4,
+  "scale": 0.1,
   "temperature": 0.8,
   "downfall": 0.4,
   "precipitation": "rain",
@@ -15,55 +15,7 @@
     "grass_color_modifier": "none"
   },
   "starts": [],
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:skeleton",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 100,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:zombie",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ]
-
-  },
+  "spawners": {},
   "spawn_costs": {},
   "carvers": {},
   "features": [
