@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count",
+          "config": {
+            "count": 128
+          }
+        },
+        "inner": {
+          "type": "minecraft:count",
+          "config": {
+            "count": 22
+          }
+        }
+      }
+    },
+    "feature": {
+      "type": "minecraft:decorated",
+      "config": {
+        "decorator": {
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:square",
+              "config": {}
+            },
+            "inner": {
+              "type": "minecraft:heightmap",
+              "config": {}
+            }
+          }
+        },
+        "feature": {
+          "type": "minecraft:decorated",
+          "config": {
+            "decorator": {
+              "type": "minecraft:count_noise_biased",
+              "config": {
+                "noise_to_count_ratio": -1,
+                "noise_factor": 256,
+                "noise_offset": -0.06
+              }
+            },
+            "feature": {
+              "type": "minecraft:decorated",
+              "config": {
+                "decorator": {
+                  "type": "minecraft:count_noise_biased",
+                  "config": {
+                    "noise_to_count_ratio": 1,
+                    "noise_factor": 256,
+                    "noise_offset": 0.06
+                  }
+                },
+                "feature": {
+                  "type": "minecraft:disk",
+                  "config": {
+                    "state": {
+                      "Name": "minecraft:water",
+                      "Properties": {
+                        "level": "0"
+                      }
+                    },
+                    "radius": 1,
+                    "half_height": 1,
+                    "targets": [
+                      {
+                        "Name": "minecraft:sand"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
