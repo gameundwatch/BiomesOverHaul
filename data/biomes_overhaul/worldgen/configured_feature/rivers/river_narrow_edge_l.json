@@ -42,7 +42,7 @@
               "config": {
                 "noise_to_count_ratio": -1,
                 "noise_factor": 256,
-                "noise_offset": -0.08
+                "noise_offset": -0.06
               }
             },
             "feature": {
@@ -53,19 +53,19 @@
                   "config": {
                     "noise_to_count_ratio": 1,
                     "noise_factor": 256,
-                    "noise_offset": 0.08
+                    "noise_offset": -0.04
                   }
                 },
                 "feature": {
                   "type": "minecraft:ore",
                   "config": {
                     "state": {
-                      "Name": "minecraft:cobblestone"
+                      "Name": "minecraft:gravel"
                     },
-                    "size": 32,
+                    "size": 12,
                     "target": {
-                      "predicate_type": "minecraft:block_match",
-                      "block": "minecraft:stone"
+                      "predicate_type": "tag_match",
+                      "tag": "biomes_overhaul:surface_plains"
                     }
                   }
                 }

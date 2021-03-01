@@ -42,7 +42,7 @@
               "config": {
                 "noise_to_count_ratio": -1,
                 "noise_factor": 256,
-                "noise_offset": -0.08
+                "noise_offset": -0.04
               }
             },
             "feature": {
@@ -53,19 +53,22 @@
                   "config": {
                     "noise_to_count_ratio": 1,
                     "noise_factor": 256,
-                    "noise_offset": 0.08
+                    "noise_offset": 0.04
                   }
                 },
                 "feature": {
                   "type": "minecraft:ore",
                   "config": {
                     "state": {
-                      "Name": "minecraft:cobblestone"
+                      "Name": "minecraft:water",
+                      "Properties": {
+                        "level": "0"
+                      }
                     },
-                    "size": 32,
+                    "size": 8,
                     "target": {
                       "predicate_type": "minecraft:block_match",
-                      "block": "minecraft:stone"
+                      "block": "minecraft:dirt"
                     }
                   }
                 }
