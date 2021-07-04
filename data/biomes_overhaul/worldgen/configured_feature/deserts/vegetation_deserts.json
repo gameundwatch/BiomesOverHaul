@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:decorated",
+  "config": {
+    "decorator": {
+      "type": "minecraft:decorated",
+      "config": {
+        "outer": {
+          "type": "minecraft:count_multilayer",
+          "config": {
+            "count": {
+              "base": 1,
+              "spread": 0
+            }
+          }
+        },
+        "inner": {
+          "type": "minecraft:heightmap",
+          "config": {}
+        }
+      }
+    },
+    "feature": "biomes_overhaul:trees/cactus/tree_cactus"
+  }
+}

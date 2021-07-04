@@ -36,9 +36,9 @@
       },
       "biomes": [
         {
-          "biome": "biomes_overhaul:abyssal",
+          "biome": "biomes_overhaul:oceans/abyssal",
           "parameters": {
-            "altitude": -0.9,
+            "altitude": -1,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,
@@ -46,7 +46,7 @@
           }
         },
         {
-          "biome": "biomes_overhaul:ocean",
+          "biome": "biomes_overhaul:oceans/ocean",
           "parameters": {
             "altitude": -0.4,
             "temperature": 0,
@@ -56,7 +56,7 @@
           }
         },
         {
-          "biome": "biomes_overhaul:shelf",
+          "biome": "biomes_overhaul:oceans/shelf",
           "parameters": {
             "altitude": -0.2,
             "temperature": 0,
@@ -66,7 +66,7 @@
           }
         },
         {
-          "biome": "biomes_overhaul:coast",
+          "biome": "biomes_overhaul:plains/coast",
           "parameters": {
             "altitude": -0.1,
             "temperature": 0,
@@ -76,7 +76,7 @@
           }
         },
         {
-          "biome": "biomes_overhaul:plains",
+          "biome": "biomes_overhaul:plains/plains",
           "parameters": {
             "altitude": 0.1,
             "temperature": 0,
@@ -84,19 +84,9 @@
             "weirdness": 0,
             "offset": 0
           }
-        },
+        },     
         {
-          "biome": "biomes_overhaul:oak_forest",
-          "parameters": {
-            "altitude": 0.1,
-            "temperature": 0,
-            "humidity": 0.4,
-            "weirdness": 0,
-            "offset": 0
-          }
-        },        
-        {
-          "biome": "biomes_overhaul:plain_hills",
+          "biome": "biomes_overhaul:plains/plain_hills",
           "parameters": {
             "altitude": 0.4,
             "temperature": 0,
@@ -106,7 +96,7 @@
           }
         },
         {
-          "biome": "biomes_overhaul:plateau",
+          "biome": "biomes_overhaul:plains/plateau",
           "parameters": {
             "altitude": 0.6,
             "temperature": 0,
@@ -116,7 +106,7 @@
           }
         },
         {
-          "biome": "biomes_overhaul:mountain",
+          "biome": "biomes_overhaul:plains/mountain",
           "parameters": {
             "altitude": 0.8,
             "temperature": 0,
@@ -126,13 +116,33 @@
           }
         },
         {
-          "biome": "biomes_overhaul:peak",
+          "biome": "biomes_overhaul:plains/peak",
           "parameters": {
             "altitude": 1,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,
             "offset": 0.2
+          }
+        },
+        {
+          "biome": "biomes_overhaul:forests/oak_forest",
+          "parameters": {
+            "altitude": 0.1,
+            "temperature": 0,
+            "humidity": 0.4,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "biomes_overhaul:deserts/desert",
+          "parameters": {
+            "altitude": 0.1,
+            "temperature": 1,
+            "humidity": 1,
+            "weirdness": 0,
+            "offset": 0
           }
         }
       ]

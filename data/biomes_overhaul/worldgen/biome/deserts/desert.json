@@ -1,0 +1,84 @@
+{
+  "surface_builder": "biomes_overhaul:desert_sand",
+  "depth": 0.4,
+  "scale": 0.0,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "rain",
+  "category": "desert",
+  "player_spawn_friendly": true,
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color_modifier": "none"
+  },
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 8
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 8
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [
+
+    ],
+    [],[],[],[],
+    [
+      "biomes_overhaul:stratum/y_3248/stratum_3248n_main",
+      "biomes_overhaul:stratum/y_3248/stratum_3248p_main",
+      "biomes_overhaul:stratum/y_1632/stratum_1632n_main",
+      "biomes_overhaul:stratum/y_1632/stratum_1632p_main",
+      "biomes_overhaul:stratum/y_0116/stratum_0116n_main",
+      "biomes_overhaul:stratum/y_0116/stratum_0116p_main",
+      "biomes_overhaul:deserts/ores_deserts"
+    ],
+    [],
+    [
+      "biomes_overhaul:deserts/flowers_deserts",
+      "biomes_overhaul:deserts/vegetation_deserts"
+    ],[]
+  ]
+}
