@@ -98,15 +98,25 @@
         {
           "biome": "biomes_overhaul:plain_hills",
           "parameters": {
-            "altitude": 0.5,
+            "altitude": 0.4,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,
-            "offset": 0.25
+            "offset": 0.2
           }
         },
         {
           "biome": "biomes_overhaul:plateau",
+          "parameters": {
+            "altitude": 0.6,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "biomes_overhaul:mountain",
           "parameters": {
             "altitude": 0.8,
             "temperature": 0,
@@ -116,39 +126,9 @@
           }
         },
         {
-          "biome": "biomes_overhaul:mountain_foot",
-          "parameters": {
-            "altitude": 0.84,
-            "temperature": 0,
-            "humidity": 0,
-            "weirdness": 0,
-            "offset": 0.01
-          }
-        },
-        {
-          "biome": "biomes_overhaul:mountain",
-          "parameters": {
-            "altitude": 0.88,
-            "temperature": 0,
-            "humidity": 0,
-            "weirdness": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "biomes_overhaul:peak_foot",
-          "parameters": {
-            "altitude": 0.92,
-            "temperature": 0,
-            "humidity": 0,
-            "weirdness": 0,
-            "offset": 0.01
-          }
-        },
-        {
           "biome": "biomes_overhaul:peak",
           "parameters": {
-            "altitude": 0.96,
+            "altitude": 1,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,
