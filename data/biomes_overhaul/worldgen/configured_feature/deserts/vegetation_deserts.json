@@ -14,8 +14,19 @@
           }
         },
         "inner": {
-          "type": "minecraft:heightmap",
-          "config": {}
+          "type": "minecraft:decorated",
+          "config": {
+            "outer": {
+              "type": "minecraft:chance",
+              "config": {
+                "chance": 3
+              }
+            },
+            "inner": {
+              "type": "minecraft:heightmap",
+              "config": {}
+            }
+          }
         }
       }
     },
