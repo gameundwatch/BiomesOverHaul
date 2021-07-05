@@ -96,7 +96,7 @@
           }
         },
         {
-          "biome": "biomes_overhaul:plains/plateau",
+          "biome": "biomes_overhaul:plains/highland",
           "parameters": {
             "altitude": 0.6,
             "temperature": 0,
