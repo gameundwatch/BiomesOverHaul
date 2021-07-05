@@ -29,7 +29,7 @@
               "config": {}
             },
             "inner": {
-              "type": "minecraft:top_solid_heightmap",
+              "type": "minecraft:heightmap",
               "config": {}
             }
           }
@@ -42,7 +42,7 @@
               "config": {
                 "noise_to_count_ratio": -1,
                 "noise_factor": 256,
-                "noise_offset": -0.06
+                "noise_offset": -0.03
               }
             },
             "feature": {
@@ -53,11 +53,11 @@
                   "config": {
                     "noise_to_count_ratio": 1,
                     "noise_factor": 256,
-                    "noise_offset": 0.06
+                    "noise_offset": 0.03
                   }
                 },
                 "feature": {
-                  "type": "minecraft:disk",
+                  "type": "minecraft:ore",
                   "config": {
                     "state": {
                       "Name": "minecraft:water",
@@ -65,13 +65,11 @@
                         "level": "0"
                       }
                     },
-                    "radius": 4,
-                    "half_height": 1,
-                    "targets": [
-                      {
-                        "Name": "minecraft:sand"
-                      }
-                    ]
+                    "size": 12,
+                    "target": {
+                      "predicate_type": "block_match",
+                      "block": "minecraft:sand"
+                    }
                   }
                 }
               }
