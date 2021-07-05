@@ -8,10 +8,12 @@
   "category": "desert",
   "player_spawn_friendly": true,
   "effects": {
-    "sky_color": 7907327,
+    "sky_color": 7254527,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011,
+    "grass_color": 13226566,
+    "foliage_color": 12892449,
     "grass_color_modifier": "none"
   },
   "starts": [],
@@ -21,37 +23,19 @@
         "type": "minecraft:skeleton",
         "weight": 100,
         "minCount": 4,
-        "maxCount": 8
+        "maxCount": 6
       },
       {
         "type": "minecraft:husk",
         "weight": 100,
         "minCount": 4,
-        "maxCount": 8
+        "maxCount": 6
       }
     ],
     "creature": [
       {
-        "type": "minecraft:sheep",
+        "type": "minecraft:rabbit",
         "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 8,
         "minCount": 4,
         "maxCount": 4
       }
