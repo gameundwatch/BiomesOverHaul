@@ -1,11 +1,11 @@
 {
-  "surface_builder": "minecraft:ocean_sand",
+  "surface_builder": "biomes_overhaul:plains_mountain",
   "depth": 3.2,
-  "scale": 1.6,
+  "scale": 1.2,
   "temperature": 1,
   "downfall": 0.5,
   "precipitation": "rain",
-  "category": "ocean",
+  "category": "plains",
   "player_spawn_friendly": true,
   "effects": {
     "sky_color": 7907327,
@@ -18,5 +18,29 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": {},
-  "features": []
+  "features": [
+    [],
+    [
+
+    ],
+    [
+      "biomes_overhaul:surface_rocks/surface_cobbles"
+    ],
+    [],[],[],
+    [
+      "biomes_overhaul:stratum/y_3248/stratum_3248n_main",
+      "biomes_overhaul:stratum/y_3248/stratum_3248p_main",
+      "biomes_overhaul:stratum/y_1632/stratum_1632n_main",
+      "biomes_overhaul:stratum/y_1632/stratum_1632p_main",
+      "biomes_overhaul:stratum/y_0116/stratum_0116n_main",
+      "biomes_overhaul:stratum/y_0116/stratum_0116p_main",
+      "biomes_overhaul:plains/ores_plains"
+    ],
+    [],
+    [
+      "biomes_overhaul:plains/flowers_l_plains",
+      "biomes_overhaul:plains/flowers_r_plains",
+      "biomes_overhaul:plains/vegetation_plains"
+    ],[]
+  ]
 }

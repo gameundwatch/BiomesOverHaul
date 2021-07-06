@@ -1,11 +1,11 @@
 {
   "surface_builder": "minecraft:ocean_sand",
   "depth": 1.6,
-  "scale": 0,
+  "scale": 0.2,
   "temperature": 1,
   "downfall": 0.5,
   "precipitation": "rain",
-  "category": "ocean",
+  "category": "plains",
   "player_spawn_friendly": true,
   "effects": {
     "sky_color": 7907327,
@@ -29,7 +29,10 @@
       "biomes_overhaul:rivers/river_narrow_edge_l",
       "biomes_overhaul:rivers/river_narrow_edge_r"
     ],
-    [],[],[],[],
+    [      
+      "biomes_overhaul:surface_rocks/surface_cobbles"
+    ],
+    [],[],[],
     [
       "biomes_overhaul:stratum/y_3248/stratum_3248n_main",
       "biomes_overhaul:stratum/y_3248/stratum_3248p_main",
