@@ -1,7 +1,7 @@
 {
   "surface_builder": "biomes_overhaul:badlands_eroded",
-  "depth": 2,
-  "scale": 1.6,
+  "depth": 3.2,
+  "scale": 1.2,
   "temperature": 2,
   "downfall": 0,
   "precipitation": "none",
