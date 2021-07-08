@@ -164,6 +164,36 @@
             "weirdness": 0,
             "offset": 0.1
           }
+        },
+        {
+          "biome": "biomes_overhaul:deserts/plateau",
+          "parameters": {
+            "altitude": 0.6,
+            "temperature": 1,
+            "humidity": 1,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "biomes_overhaul:deserts/canyon",
+          "parameters": {
+            "altitude": 0.8,
+            "temperature": 1,
+            "humidity": 1,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "biomes_overhaul:deserts/apex",
+          "parameters": {
+            "altitude": 1,
+            "temperature": 1,
+            "humidity": 1,
+            "weirdness": 0,
+            "offset": 0
+          }
         }
       ]
     },

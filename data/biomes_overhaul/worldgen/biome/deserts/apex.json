@@ -1,0 +1,65 @@
+{
+  "surface_builder": "biomes_overhaul:badlands_terracotta",
+  "depth": 2,
+  "scale": 1.6,
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "desert",
+  "player_spawn_friendly": false,
+  "effects": {
+    "sky_color": 7254527,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color_modifier": "none"
+  },
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [
+
+    ],
+    [],[],[],[],
+    [
+      "biomes_overhaul:stratum/y_3248/stratum_3248n_main",
+      "biomes_overhaul:stratum/y_3248/stratum_3248p_main",
+      "biomes_overhaul:stratum/y_1632/stratum_1632n_main",
+      "biomes_overhaul:stratum/y_1632/stratum_1632p_main",
+      "biomes_overhaul:stratum/y_0116/stratum_0116n_main",
+      "biomes_overhaul:stratum/y_0116/stratum_0116p_main",
+      "biomes_overhaul:deserts/ores_deserts"
+    ],
+    [],
+    [
+      
+    ],[]
+  ]
+}

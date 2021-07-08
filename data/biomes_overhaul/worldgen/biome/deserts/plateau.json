@@ -1,7 +1,7 @@
 {
   "surface_builder": "biomes_overhaul:badlands_redsand",
   "depth": 1.6,
-  "scale": 0.2,
+  "scale": 0,
   "temperature": 2,
   "downfall": 0,
   "precipitation": "none",
