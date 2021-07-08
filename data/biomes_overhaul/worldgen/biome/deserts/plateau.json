@@ -1,7 +1,7 @@
 {
-  "surface_builder": "biomes_overhaul:beach_sand",
-  "depth": -0.1,
-  "scale": 0.0,
+  "surface_builder": "biomes_overhaul:badlands_redsand",
+  "depth": 1.6,
+  "scale": 0.2,
   "temperature": 2,
   "downfall": 0,
   "precipitation": "none",
@@ -59,8 +59,7 @@
     ],
     [],
     [
-      "biomes_overhaul:deserts/flowers_generic_deserts",
-      "biomes_overhaul:deserts/vegetation_deserts"
+      
     ],[]
   ]
 }

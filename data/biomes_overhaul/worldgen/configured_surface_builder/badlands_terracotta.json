@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:orange_terracotta"
+    },
+    "under_material": {
+      "Name": "minecraft:terracotta"
+    },
+    "underwater_material": {
+      "Name": "minecraft:terracotta"
+    }
+  },
+  "type": "minecraft:badlands"
+}
